@@ -1,0 +1,4 @@
+KRULL means Knowledge Running Under Lightweight Language.
+KRULL Nano is a tiny decoder-only language model for edge devices.
+It prioritizes latency, cost, privacy, offline inference and edge sovereignty.
+Small language models can run locally on constrained hardware.
