@@ -89,11 +89,6 @@ python scripts/export_onnx.py --model artifacts/krull_nano.pt --out artifacts/kr
 
 This repo is for learning and experimentation. The default dataset is tiny, so the generated text will not be intelligent. Replace `data/tiny_corpus.txt` with a larger corpus to train a better model.
 
-## Why character tokenizer?
-
-The first priority here is a working, simple KRULL-Nano baseline. Character tokenization avoids common tokenizer training issues on Windows and keeps the repo easy to understand.
-
-A BPE or map-reduce tokenizer can be added later after the base model is stable.
 
 ## License
 
